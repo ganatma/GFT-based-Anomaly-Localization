@@ -31,16 +31,15 @@ Preprocess with `dataset_creation.ipynb` to generate patched datasets.
 ## Methodology
 
 ### Feature Extraction
-![GFT Architecture](images/GFT_feature_extraction.png)  
+<div style="background-color: white; padding: 10px; border-radius: 8px; display: inline-block;">
+  <img src="images/GFT_feature_extraction.png" alt="GFT Architecture" style="max-width: 100%; height: auto;">
+</div>  
 *Graph Fourier Transform pipeline (Sandryhaila & Moura, 2014) for texture representation*
 
 ### Classification Pipeline
-1. Graph construction from texture patches
-2. Spectral coefficient computation via GFT
-3. 1D-CNN classification (Kiranyaz et al., 2021)
-4. SHAP-based model interpretation
-
-![Processing Pipeline](images/methodology.png)  
+<div style="background-color: white; padding: 10px; border-radius: 8px; display: inline-block;">
+  <img src="images/methodology.png" alt="Processing Pipeline" style="max-width: 100%; height: auto;">
+</div>  
 *End-to-end defect detection workflow*
 
 ## Results
@@ -55,15 +54,22 @@ Preprocess with `dataset_creation.ipynb` to generate patched datasets.
 | **Carpet**  |                     93.20 |
 | **Grid**    |                     93.20 |
 
-![Training Metrics](images/performance.png)  
+### Classification Performance
+<div style="background-color: white; padding: 10px; border-radius: 8px; display: inline-block;">
+  <img src="images/performance.png" alt="Training Metrics" style="max-width: 100%; height: auto;">
+</div>  
 *Convergence plot showing 99.94% training accuracy and 99.91% validation accuracy over 50 epochs*
 
 ### Model Interpretation
-![SHAP Analysis](images/shap_exp.png)  
+<div style="background-color: white; padding: 10px; border-radius: 8px; display: inline-block;">
+  <img src="images/shap_exp.png" alt="SHAP Analysis" style="max-width: 100%; height: auto;">
+</div>  
 *SHAP values identifying critical low-frequency components (Lundberg & Lee, 2017)*
 
 ### Benchmark Comparison
-![MVTec-AD Results](images/mvtecad.png)  
+<div style="background-color: white; padding: 10px; border-radius: 8px; display: inline-block;">
+  <img src="images/mvtecad.png" alt="MVTec-AD Results" style="max-width: 100%; height: auto;">
+</div>  
 *State-of-the-art comparison on MVTec AD (Bergmann et al., 2019)*
 
 ## Citation
