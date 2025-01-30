@@ -10,8 +10,8 @@ This project addresses the challenge of detecting defects in images with highly 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/graph-fourier-defect-detection.git
-   cd graph-fourier-defect-detection
+   git clone https://github.com/ganatma/GFT-based-Anomaly-Localization.git
+   cd GFT-based-Anomaly-Localization
    ```
 
 2. Install requirements:
